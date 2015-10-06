@@ -1,6 +1,6 @@
 library(shiny)
 
-m2 <- munic_code[order(munic_code[,2]),]
+m2 <- KoladaR::munic_code[order(KoladaR::munic_code[,2]),]
 sel_kmn <- list()
 for(i in 1:290){
   sel_kmn[i] <- m2[i,1]
